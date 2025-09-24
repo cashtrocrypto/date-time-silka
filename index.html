@@ -31,6 +31,12 @@
             box-sizing: border-box;
         }
         
+        .icon {
+            height: 16px;
+            width: auto;
+            flex-shrink: 0;
+        }
+        
         #datetime {
             color: white;
             font-size: 16px;
@@ -44,7 +50,9 @@
 </head>
 <body>
     <div class="datetime-banner">
+        <img src="your-icon.png" alt="" class="icon">
         <div id="datetime"></div>
+        <img src="your-icon.png" alt="" class="icon">
     </div>
     
     <script>
